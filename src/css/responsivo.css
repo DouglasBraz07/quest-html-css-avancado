@@ -1,0 +1,122 @@
+@media (max-width: 1300px) {
+    .logo {
+        margin-left: 25%;
+        width: 250px;
+        height: 90px;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;    
+    }
+    .image {
+        width: 350px;
+        height: 250px;
+    }
+    .informacoes {
+        text-align: center;
+    }
+    .container .informacoes .titulo {
+        font-size: 35px;
+    }
+    .container .informacoes .botao {
+        font-size: 15px;
+        padding: 15px 100px;
+        margin-left: 23%;
+    }
+    .redes {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px;
+        margin-left: 360px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 7%;
+        width: 250px;
+        height: 90px;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;    
+    }
+    .image {
+        width: 350px;
+        height: 250px;
+    }
+    .informacoes {
+        text-align: center;
+    }
+    .container .informacoes .titulo {
+        font-size: 35px;
+    }
+    .container .informacoes .botao {
+        font-size: 15px;
+        padding: 15px 100px;
+        margin-left: 23%;
+    }
+    .redes {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+}
+
+@media(max-width: 375px){
+    body {
+        background: url(../imagens/bg-mobile.svg)  no-repeat;
+        background-color: var(--cor-violeta);
+        font-family: 'Poppins', sans-serif;
+    }
+    header {
+        height: 100px;
+    }
+    .logo {
+        margin: 0;
+        width: 200px;
+        height: 80px;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative; 
+    }
+    .image {
+        width: 330px;
+        height: 230px;
+        position: absolute;
+    }
+    .container .informacoes {
+        text-align: center;
+        margin-top: 200px;
+        padding: 80px;
+        position: absolute;
+
+    }
+    .container .informacoes .titulo {
+        font-size: 25px;
+    }
+    .container .informacoes .texto {
+        font-size: 15px;
+    }
+    .container .informacoes .botao {
+        font-size: 10px;
+        padding: 10px 80px;
+        margin-left: 17%;
+    }
+    .redes {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 600px;
+        margin-left: 90px;
+        position: absolute;
+    }
+}
